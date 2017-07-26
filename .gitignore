@@ -13,6 +13,14 @@ bin/
 gen/
 out/
 
+# Apple files
+.DS_Store
+
+# Graphics
+*.png
+*.svg
+graphics/
+
 # Gradle files
 .gradle/
 build/
@@ -32,13 +40,9 @@ proguard/
 # Android Studio captures folder
 captures/
 
-# Intellij
+# Intellij & JetBrains IDE Specifc 
 *.iml
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/gradle.xml
-.idea/dictionaries
-.idea/libraries
+.idea/
 
 # Keystore files
 *.jks
